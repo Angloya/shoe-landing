@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900') * {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    box-shadow: none;
+    border: none
+}
+
+#section1 {
+    background-image: url(images/Ellipse_1_copy_4.png), url(images/Ellipse_1_copy_4.png), url(images/Ellipse_1_copy_4.png), url(images/Ellipse_1_copy_5.png), url(images/Ellipse_1_copy_5.png), url("images/nike.png"), url("images/b.png"), url("images/Nike_Text.png"), radial-gradient(circle 1200px at center, #03cddb 0%, #005773);
+    background-position: 968px 204px, 639px 638px, 278px 164px, 278px 704px, 1233px 44px, 117px 90px, right center, center, center;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size: 15px 15px, 15px 15px, 22px 22px, 110px 110px, 110px 110px, 80px 28px, 887px 769px, 90%, 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1600px;
+    height: 930px;
+    border: none;
+    border-width: 0px
+}
+
+#section1 img {
+    padding-top: 244px;
+    width: 506px;
+    height: 418px;
+    padding-right: 200px;
+}
+
+.section1_text {
+    padding-top: 250px;
+    padding-left: 230px;
+}
+
+.section1_text h1 {
+    width: 400px;
+    height: 131px;
+    color: #00fffc;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    padding-bottom: 105px;
+}
+
+.section1_text button {
+    width: 200px;
+    height: 50px;
+    box-shadow: 0 10px 30px rgba(20, 108, 113, 0.15), inset 0 0 2px rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    border: 2px solid #ffffff;
+    background-color: rgba(255, 255, 255, 0);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 45px;
+    text-transform: uppercase;
+    margin-right: 20px
+}
+
+.section1_text button:hover {
+    width: 200px;
+    height: 50px;
+    box-shadow: 0 10px 30px rgba(20, 108, 113, 0.15), inset 0 0 2px rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    background-color: #00ecf4;
+    cursor: pointer;
+}
+
+#section2 {
+    margin-top: -225px;
+    background-origin: content-box;
+    padding-top: 25px;
+    max-width: 1600px;
+    height: 930px;
+    background-image: url(images/Shape_1_copy_2.png), url(images/Shape_1_copy.png), url(images/Shape_1.png);
+    background-position: center 5px, center -45px, center 5px;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    border: none;
+    box-shadow: none;
+    border-image: none;
+    position: relative;
+    padding-bottom: 275px
+}
+
+#section2 div {
+    padding-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-content: center
+}
+
+img#shoe2 {
+    max-width: 930px;
+    max-height: 630px;
+}
+
+#section2 h2 {
+    position: absolute;
+    width: 220px;
+    height: 16px;
+    color: #00dfee;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+#section2 button {
+    width: 200px;
+    height: 50px;
+    box-shadow: 0 10px 30px rgba(20, 108, 113, 0.15), inset 0 0 2px rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    background-color: #00ecf4;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 45px;
+    text-transform: uppercase;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-bottom: 100px
+}
+
+#section2_text1 {
+    top: 487px;
+    left: 192px
+}
+
+#section2_text2 {
+    top: 323px;
+    left: 1092px
+}
+
+#section2_text3 {
+    top: 637;
+    left: 1186
+}
+
+.img2 {
+    position: absolute
+}
+
+.layer_1 {
+    width: 305px;
+    height: 157px;
+    top: 378px;
+    left: 898px;
+}
+
+.layer_2 {
+    width: 305px;
+    height: 157px;
+    top: 692px;
+    left: 1039px;
+}
+
+.layer_3 {
+    width: 327px;
+    height: 118px;
+    top: 542px;
+    left: 321px;
+}
