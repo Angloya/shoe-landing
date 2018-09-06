@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900') * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0 auto;
+    padding: 0 auto;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    margin: 0px;
+    margin-right: -90px;
     box-shadow: none;
-    border: none
+    border: none;
+    width: 100%;
+        margin: 0 auto;
+    padding: 0 auto;
 }
 
 button {
@@ -32,7 +35,7 @@ button {
     background-size: 15px 15px, 15px 15px, 22px 22px, 110px 110px, 110px 110px, 80px 28px, 887px 769px, 90%, 100%;
     display: flex;
     justify-content: space-between;
-    max-width: 1600px;
+    width: 100%;
     height: 930px;
     border: none;
     border-width: 0px
@@ -88,7 +91,7 @@ button {
     margin-top: -225px;
     background-origin: content-box;
     padding-top: 25px;
-    max-width: 1600px;
+    width: 100%;
     height: 930px;
     background-image: url(images/Shape_1_copy_2.png), url(images/Shape_1_copy.png), url(images/Shape_1.png);
     background-position: center 5px, center -45px, center 5px;
@@ -172,7 +175,7 @@ img#shoe2 {
     padding-top: 900px;
     margin-top: -600px;
     background-origin: content-box;
-    max-width: 100%;
+    width: 100%;
     height: 906px;
     background-image: url(images/Group_7.png), url(images/Rectangle_7_copy_2.png);
     background-position: 500px -800px, left -600px;
@@ -242,14 +245,8 @@ img#shoe2 {
 }
 
 #section4 div {
-    position: relative;
-    left: 118px;
-    top: 20%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    text-align: center;
+padding-left: 40px;
+    padding-top: 30px
 }
 
 #section4 div h1 {
@@ -258,9 +255,8 @@ img#shoe2 {
 
 #section4 div p {
     margin-bottom: 0px;
-    width: 338px;
+    max-width: 338px;
     height: 16px;
-
     color: #263238;
     font-size: 15px;
     font-weight: 300;
